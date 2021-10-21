@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Noto+Sans+Mono&display=swap");
+
+body {
+  height: 100vh;
+  overflow-y: auto;
+  background: rgba(4, 60, 235, 1);
+  background: linear-gradient(90deg, rgba(4, 60, 235, 1), rgb(100, 149, 237));
+  font-family: "Comfortaa", cursive;
+}
+
+.profileimg {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  height: auto;
+  width: auto;
+  max-width: 47%;
+  max-height: 47%;
+}
+
+.nav-link {
+  transition: 0.3s ease-in;
+}
+
+.nav-item {
+  text-shadow: black;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.menucolor {
+  background-color: rgba(4, 60, 235, 0.8);
+}
+
+.font2 {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.justifytext {
+  text-align: justify;
+}
+
+.skillsimg {
+  border-style: none;
+  background-color: white;
+  height: auto;
+  width: auto;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+.hovering,
+.hovering2 {
+  transition: 0.3s ease-in;
+  background-color: rgba(255, 255, 255, 1);
+  color: #161c2d;
+  border-radius: 20px;
+}
+.hovering:hover {
+  transform: scale(1.15);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: rgba(4, 60, 235, 1);
+}
+
+.hovering2:hover {
+  transform: scale(1.26);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  border-color: rgba(4, 60, 235, 1);
+}
+
+.bordermenu {
+  border-radius: 50px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.contents {
+  background-color: rgba(255, 255, 255, 1);
+  color: #161c2d;
+  border-radius: 20px;
+}
+
+.imagemusic {
+  width: auto;
+  height: auto;
+  max-width: 50%;
+  max-height: 50%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.fonttext {
+  color: #161c2d;
+}
+
+.listing {
+  list-style: none;
+}
+
+.listing a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.listing a:hover {
+  transform: scale(1.15);
+  color: rgba(4, 60, 235, 1);
+}
+
+.noscroll {
+  overflow-y: hidden;
+}
+
+.roundedcard {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+}
+
+.roundedcard img {
+  border-radius: 20px;
+}
